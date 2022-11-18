@@ -903,7 +903,8 @@ p {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-  text-align: start;
+  text-align: justify;
+  padding: 15px;
 }
 .icon-wrapper {
   background-color: #2c7bfe;
@@ -2039,4 +2040,19 @@ nav input{
 /* home responsive css */
 .page1{
   padding: 0px;
+}
+
+@media only screen and (min-width:600px) and (max-width:822px){
+  .box-container {
+    flex-direction: column;
+  }
+  .footer .box-container .box a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:599px){
+  .box-container {
+    flex-direction: column;
+  }
 }

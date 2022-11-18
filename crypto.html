@@ -10,6 +10,9 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <!-- responsiveness -->
+  <link rel="stylesheet" href="/css/responsiveness/services-pages.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,75 +21,75 @@
 </head>
 <body>
 
-  <!-- navbar -->
-  <nav>
-    <div class="wrapper">
-      <div class="logo"><a href="index.html">Code<span>Devoxy</span></a></div>
-      <input type="radio" name="slider" id="menu-btn">
-      <input type="radio" name="slider" id="close-btn">
-      <ul class="nav-links">
-        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-        <li><a href="index.html">Home</a></li>
-
-        <li>
-          <a href="#" class="desktop-item">Services</a>
-          <input type="checkbox" id="showMega">
-          <label for="showMega" class="mobile-item">Services</label>
-          <div class="mega-box">
-            <div class="content">
-              <div class="row">
-                <img src="/images/img.jpg" alt="">
-              </div>
-              <div class="row">
-                <header>Web development</header>
-                <ul class="mega-links">
-                  <li><a href="webdev.html">wordpess</a></li>
-                  <li><a href="webdev.html">coding</a></li>
-                  <li><a href="webdev.html">dynamic & static</a></li>
-                  <li><a href="webdev.html">woocommerce</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Crypto Currencies</header>
-                <ul class="mega-links">
-                  <li><a href="crypto.html">Consultation</a></li>
-                  <li><a href="crypto.html">Technical analysis</a></li>
-                  <li><a href="crypto.html">Fundamental analysis</a></li>
-                  <li><a href="crypto.html">crypto Courses</a></li>
-                </ul>
-              </div>
-              <div class="row">
-                <header>Blockchain </header>
-                <ul class="mega-links">
-                  <li><a href="blockchain.html">NFT websites</a></li>
-                  <li><a href="blockchain.html">Dapps & smart contract</a></li>
-                  <li><a href="blockchain.html">integration</a></li>
-                  <li><a href="blockchain.html">connection of wallet</a></li>
-                </ul>
+    <!-- navbar -->
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="index.html">Code<span>Devoxy</span></a></div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="index.html">Home</a></li>
+  
+          <li>
+            <a href="webdev.html" class="desktop-item">Services</a>
+            <input type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">Services</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="/images/img.jpg" alt="">
+                </div>
+                <div class="row">
+                  <header>Web development</header>
+                  <ul class="mega-links">
+                    <li><a href="webdev.html">wordpess</a></li>
+                    <li><a href="webdev.html">coding</a></li>
+                    <li><a href="webdev.html">dynamic & static</a></li>
+                    <li><a href="webdev.html">woocommerce</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Crypto Currencies</header>
+                  <ul class="mega-links">
+                    <li><a href="crypto.html">Consultation</a></li>
+                    <li><a href="crypto.html">Technical analysis</a></li>
+                    <li><a href="crypto.html">Fundamental analysis</a></li>
+                    <li><a href="crypto.html">crypto Courses</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Blockchain </header>
+                  <ul class="mega-links">
+                    <li><a href="blockchain.html">NFT websites</a></li>
+                    <li><a href="blockchain.html">Dapps & smart contract</a></li>
+                    <li><a href="blockchain.html">integration</a></li>
+                    <li><a href="blockchain.html">connection of wallet</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </li>
-        <li>
-          <a href="about.html" class="desktop-item">About</a>
-          <input type="checkbox" id="showDrop">
-          <label for="showDrop" class="mobile-item">About</label>
-          <!-- <ul class="drop-menu">
-            <li><a href="#">Our Mission</a></li>
-            <li><a href="#">Our Goal</a></li>
-            <li><a href="#">Future Goals</a></li>
-
-          </ul> -->
-        </li>
-
-        <li><a href="porfolio.html">Portfolio</a></li>
-
-        <li><a href="blog.html">Blog</a></li>
-        <button class="btn-mudda"><a href="contact.html">Contact Us</a></button>
-      </ul>
-      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-    </div>
-  </nav>
+          </li>
+          <li>
+            <a href="about.html" class="desktop-item">About</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">About</label>
+           
+          </li>
+  
+          <li><a href="portfolios.html">Portfolio</a></li>
+  
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <button class="btn-mudda"><a href="contact.html">Contact Us</a></button>
+        </ul>
+        <div class="burger" title="Navigation Menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      </div>
+    </nav>
+   
     <!-- services section  -->
   <section  class="services-1">
     <div class="row">
@@ -98,11 +101,9 @@
           <div class="icon-wrapper">
             <i class="fas fa-hammer"></i>
           </div>
-          <h3>Market analysis</h3>
+          <h3>Stock/Crypto Analysis</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
+            We provide the analysis of any stock and crypto coin or token . The analysis involves the fundamental analysis , technical analysis and scenario analysis with all the proven methods.
           </p>
          
         </div>
@@ -114,9 +115,7 @@
           </div>
           <h3>Consultation</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
+            We provide our customer a full trading consultation in which we study the market and tell the client which stock is best for investing in current market any show you our researches as well. This will help you to earn more profits.
           </p>
          
         </div>
@@ -126,133 +125,97 @@
           <div class="icon-wrapper">
             <i class="fas fa-wrench"></i>
           </div>
-          <h3>Online Courses</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
-          </p>
-          
-        </div>
-      </div>
-      <div class="column">
-        <div class="card-1">
-          <div class="icon-wrapper">
-            <i class="fas fa-wrench"></i>
-          </div>
           <h3>Live Classes</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
+            We also provide live trading education classes in which you can easily learn how to trade like a pro. This will change your mind and you will create a mind set that top 3% have and which mistakes you want to avoid to take more profit. This will helps  you a lot in your trading journey. 
           </p>
           
         </div>
       </div>
-      <div class="column">
-        <div class="card-1">
-          <div class="icon-wrapper">
-            <i class="fas fa-wrench"></i>
-          </div>
-          <h3>Learn Trading</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
-          </p>
+      
+      
+      
+
+    </div>
+  </section>
+  <!-- adding contact form for test -->
+  <section class="contact" id="contact">
+
+    <h1 class="heading"> <span> Let's Kick Start Your</span> project Development </h1>
+
+    <div class="row">
+
+      <form action="/home" method="post">
+        <h2>Name*</h2>
+        <input type="text" name="name" placeholder=" Enter your name" class="box">
+        <h2>Email*</h2>
+        <input type="email"name="email" placeholder=" Enter your email" class="box">
+        
+        
+        <h2>Message*</h2>
+        <textarea name="message" class="box" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn-1">
+      </form>
+
+      <div class="image">
+        <!-- <img src="images/contact-img.svg" alt=""> -->
+        <div class="contact-info">
           
-        </div>
-      </div>
-      <div class="column">
-        <div class="card-1">
-          <div class="icon-wrapper">
-            <i class="fas fa-wrench"></i>
-          </div>
-          <h3>Portfolio Management</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus laboriosam dolore quo magni quidem,
-            officia ducimus? Eum perspiciatis quis ipsa mollitia explicabo, officiis, sequi nemo quasi doloribus,
-            voluptatem harum laborum similique eius asperiores.
-          </p>
-          
+          <h2><span>Email : </span> CodeDevoxy@gmail.com</h2>
+          <h2><span>Wattsapp : </span> +92-3107285227</h2>
         </div>
       </div>
 
     </div>
+
   </section>
 
     <!-- free qoute section  -->
 
     <div class="contact-me">
         <p>Do you have a Project to Discuss?</p>
-        <a class="button-two" href="#">Get Free Quote</a>
+        <a class="button-two" href="contact">Get Free Quote</a>
       </div>
     
-      <!-- let's talk us section  -->
-    
-      <section class="contact" id="contact">
-    
-        <h1 class="heading"> <span> Let's Kick Start Your</span> project Development </h1>
-    
-        <div class="row">
-    
-          <form action="">
-            <h2>Name*</h2>
-            <input type="text" placeholder=" Enter your name" class="box">
-            <h2>Email*</h2>
-            <input type="email" placeholder=" Enter your email" class="box">
-            <h2>Number</h2>
-            <input type="number" placeholder="Enter your number" class="box">
-            <h2>Attach File</h2>
-            <input type="file" id="myfile" name="myfile" placeholder="Enter your number" class="box">
-            <h2>Message*</h2>
-            <textarea name="" class="box" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn-1">
-          </form>
-    
-          <div class="image">
-            <img src="images/contact-img.svg" alt="">
-          </div>
-    
-        </div>
-    
-      </section>
-    
+      
     <!-- footer section  -->
+
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Navigation</h3>
+        <a href="home.html">home</a>
+        <a href="about.html">about</a>
+        <a href="webdev.html">services</a>
+        
+        <a href="contact.html">contact</a>
+      </div>
+
+      <div class="box">
+        <h3>Services</h3>
+        <a href="webdev.html">Web Development</a>
+        <a href="blockchain.html">Blockchain</a>
+        <a href="crypto.html">Crypto</a>
+      </div>
+
+      <div class="box">
+        <h3>contact info</h3>
+        <a>+92-3107285227</a>
+        <a>codedevoxy@gmail.com</a>
+        
+
+      </div>
+
+    </div>
+
+    <div class="credit"> @Copyright 2022 <span> CodeDevoxy </span> | all rights reserved </div>
+
+  </section>
     
-      <section class="footer">
-    
-        <div class="box-container">
-    
-          <div class="box">
-            <h3>Navigation</h3>
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">products</a>
-            <a href="#">review</a>
-            <a href="#">contact</a>
-          </div>
-    
-          <div class="box">
-            <h3>Services</h3>
-            <a href="#">Web Development</a>
-            <a href="#">Blockchain</a>
-            <a href="#">Crypto</a>
-          </div>
-    
-          <div class="box">
-            <h3>contact info</h3>
-            <a href="#">+123-456-7890</a>
-            <a href="#">example@gmail.com</a>
-            <a href="#">Lahore, Pakistan - 400104</a>
-    
-          </div>
-    
-        </div>
-    
-        <div class="credit"> @Copyright 2022 <span> CodeDevoxy </span> | all rights reserved </div>
-    
-      </section>
-    
+      <!-- js links -->
+
+      <script src="js/main.js"></script>
 </body>
 </html>
