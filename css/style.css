@@ -2054,10 +2054,25 @@ nav input{
   .footer .box-container .box a {
     font-size: 20px;
   }
+  
 }
 
+@media only screed and (max-width:767){
+  .cursor-1 {
+    display: none;
+  }
+  .cursor-2 {
+    display: none;
+  }
+}
 @media only screen and (max-width:599px){
   .box-container {
     flex-direction: column;
+  }
+  .cursor-1 {
+    display: none;
+  }
+  .cursor-2 {
+    display: none;
   }
 }
