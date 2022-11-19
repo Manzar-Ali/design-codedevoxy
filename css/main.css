@@ -150,4 +150,10 @@
   .swiper-navBtn{
     display: none;
   }
+  .cursor-1 {
+    display: none;
+  }
+  .cursor-2 {
+    display: none;
+  }
 }
