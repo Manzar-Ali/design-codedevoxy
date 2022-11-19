@@ -880,6 +880,11 @@ body{
   cursor: pointer;
   transition: 0.5s;
 }
+/* updating the card p */
+.services .row .column p{
+  height: fit-content;
+}
+
 .card-1 {
   width: 100%;
   height: 100%;

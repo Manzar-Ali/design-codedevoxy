@@ -1,8 +1,12 @@
 /*  Responsiveness for large phone 576px to 767px  */
 
 @media only screen and (min-width:576px) and (max-width:767px) {
+    .services-1 h2{
+        margin-top: 102px;
+    }
     .services-1 {
-        height: 208vh;
+        height: fit-content;
+        padding: 0px;
     }
 }
 
@@ -11,7 +15,8 @@
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     .services-1 {
-        height: 235vh;
+        height: fit-content;
+
     }
     .row {
         
@@ -22,7 +27,20 @@
 
 @media only screen and (max-width:575px) {
     .services-1 {
-        height: 230vh;
+        height: fit-content;
+        padding: 0px;
+    }
+    .services-1 h2{
+        margin-top: 102px;
     }
     
+}
+
+.services-1{
+    height: fit-content;
+  }
+
+  .services-1 h2{
+    margin-top: 110px;
+    margin-bottom: 20px;
 }
